@@ -1,0 +1,104 @@
+*{
+    margin: 0;padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    
+}
+nav a{
+    color: black;
+
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+h1{
+    color: black;font-size: 30px;
+}
+nav{
+    gap: 20px;
+}
+
+h2{
+    justify-content:center;
+    margin: 0 auto;
+    display:flex;
+}
+.baner{
+    width: 100%;
+    height: 70%;
+}
+.Moto1 img{
+    width: 200px;
+}
+.Moto2 img{
+    width: 200px;
+}
+.Moto3 img{
+    width: 200px;
+}
+
+div{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.Moto1,.Moto2,.Moto3{
+    flex-direction: column;
+
+}
+
+.Moto1,.Moto2,.Moto3{
+    align-items: center;
+
+}
+
+.Moto3 a{
+    text-decoration: none;
+   border: 2px solid blue;
+padding: 20px 20px ;
+border-radius: 40px;
+}
+
+
+.Moto3 a:hover{
+    background: blue; 
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Moto2 a{
+    text-decoration: none;
+    border: 2px solid blue;
+ padding: 20px 20px ;
+ border-radius: 40px;
+}
+
+.Moto1 a{
+    text-decoration: none;
+    border: 2px solid blue;
+ padding: 20px 20px ;
+ border-radius: 40px;
+}
+
+
+.Moto2 a:hover{
+    background: blue; 
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Moto1 a:hover{
+    background: blue; 
+    color: white;
+    transition: 0.3s ease-in-out;
+}
